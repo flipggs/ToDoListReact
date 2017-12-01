@@ -1,7 +1,7 @@
 import React from 'react';
 
 import './ColumnList.css';
-import If from './If';
+import If from './If'; 
 
 const ColumnList = ({ title, items = [], addTask, updateTask }) => {
 
