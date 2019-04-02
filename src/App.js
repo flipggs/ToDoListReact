@@ -77,7 +77,7 @@ class App extends Component {
 
           {columns.map(column => (
             <ColumnList
-              key={column.title}
+              key={`title-${column.title}`}
               title={column.title}
               items={column.items}
               addTask={this.addTask}
